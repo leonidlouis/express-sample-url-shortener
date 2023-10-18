@@ -35,9 +35,11 @@ CREATE TABLE urls (
 );
 ```
 
-Update the database configuration in the application if necessary (e.g., user, password, host, etc.)
+### 4. Configure .env:
 
-### 4. Run the application:
+create a .env file and fill it in with the appropriate information, example is in `.env.example`
+
+### 5. Run the application:
 
 ```bash
 node index.js
